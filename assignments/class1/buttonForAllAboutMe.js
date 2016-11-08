@@ -1,7 +1,7 @@
 document.getElementById("myButton").onclick = changeColor;
 var currentColor = "darkmagenta";
 
-function changeColor(){;
+function changeColor(){
 
     if (currentColor == "darkmagenta"){
         document.body.style.color = "chartreuse";
