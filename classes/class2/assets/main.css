@@ -1,0 +1,78 @@
+* {box-sizing: border-box}
+p {font-size: 30px}
+
+figure {
+    float: left
+}
+
+.bigDiv {
+    height: 10px;
+    background-color: fuchsia;
+    width 20px;
+
+}
+
+#childDiv {
+
+
+}
+
+.bigDiv div {height:  50px;
+    width: 30%;
+    padding: 20px;
+    margin: 5%;
+    background-color: crimson;
+    border: dotted black 3px;
+    box-sizing:padding-box;
+    position: relative;
+    left: 10px;
+    top: -50px;
+
+
+
+}
+
+nav {height:  50px;
+    width: 30%;
+    padding: 20px;
+    margin: 5%;
+    border: dotted black 3px;
+    box-sizing:padding-box;
+    position: relative;
+    left: 10px;
+    top: -50px;
+
+
+
+}
+main article {height:  50px;
+    width: 20%;
+    padding: 20px;
+    margin: 5%;
+    border: dotted black 3px;
+    box-sizing:padding-box;
+    float:left
+
+}
+section {width: 50%;
+    background-color: skyblue;
+    overflow: hidden;
+    float:left;
+
+}
+
+aside {width: 40%;
+    height: 45px;
+    background-color: aqua;
+    float:right
+
+}
+
+footer {
+    height: 52px;
+    bottom: 0px;
+    background-color: chocolate;
+
+
+
+}
