@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 header {
     height: 300px;
     background-color: chocolate;
@@ -10,20 +6,6 @@ header {
     border-style: groove;
 }
 
-
-main {
-    height: 1000px;
-    background-color:aquamarine;
-    border-width: 2px;
-    border-color: black;
-    border-style: groove;
-    color: black;
-    font-size: 26px;
-    font-family: sans-serif;
-    padding: 10%;
-
-    }
-
 nav {
     width: 200px;
     background-color:aqua;
@@ -31,19 +13,29 @@ nav {
     border-width: 5px;
     border-style: groove;
     float: left;
-    top: 300px;
-    padding: 25px;
-    text-align: left;
-    font-family: inherit;
-    font-style: oblique;
-    font-size: 20px;
-    color: beige;
-            }
+    top: 300px
+
+}
+
+main {
+    height: 1000px;
+    background-color:aquamarine;
+    border-width: 2px;
+    border-color: black;
+    border-style: groove;
+
+    color: black;
+    font-size: 18px;
+    font-family:sans-serif;
+    padding: 25px
+}
+
+
 
 figure {
     float: left;
-
-text-align: center;
+  width: 30%;
+  text-align: center;
   font-style: italic;
   font-size: smaller;
   text-indent: 0;
@@ -64,8 +56,7 @@ figure2 {
 
 }
 
-aside {
-    width: 200px;
+aside {width: 200px;
     height: 500px;
     background-color:dodgerblue;
     border-color: black;
@@ -74,31 +65,17 @@ aside {
     position: absolute;
     right:  25px;
     top: 400px
+
+
 }
 
-aside div {
-    height: 28%;
-
+div {height: 25px;
+    width: 50px;
     border: black 2px;
-    background-color: chartreuse;
-    width: 80%;
-    padding: 50px;
-    margin: 10%;
-    border: black, 2px;
-
-
-}
+    background-color: chartreuse}
 
 footer {height: 100px;
-    width: 100%;
     background-color:coral;
     border-color: black;
     border-width: 5px;
-    border-style: groove;
-    color: aqua;
-    text-align: center;
-    font-size: 60px;
-    font-family: fantasy;
-    position: fixed;
-    bottom: 0;
-}
+    border-style: groove}
