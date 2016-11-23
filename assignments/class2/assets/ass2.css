@@ -49,21 +49,16 @@ figure {
   padding: 10px
 }
 
-<<<<<<< HEAD
+
 .left {
     float: left;
 }
 
 .right {
-=======
-#left {
-    float: left;
-}
-
-#right {
->>>>>>> origin/master
     float: right;
 }
+
+
 
 aside {
     width: 200px;
