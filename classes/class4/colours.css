@@ -1,0 +1,19 @@
+
+div {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    float: left;
+}
+
+.red {
+    background-color: red
+}
+
+.green {
+    background-color: green
+}
+
+.blue {
+    background-color: blue
+}
