@@ -18,7 +18,15 @@ $(function(){
 });
 
 var myImg = $("img");
+<<<<<<< HEAD
 var myCaption = $myImg.next();
+=======
+<<<<<<< HEAD
+var myCaption = $myImg.next();
+=======
+var myCaption = myImg.next();
+>>>>>>> origin/master
+>>>>>>> origin/master
 
 
 myImg.on("mouseenter", function(){

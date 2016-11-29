@@ -49,6 +49,7 @@ figure {
   padding: 10px
 }
 
+<<<<<<< HEAD
 #left {
     float: left;
 }
@@ -57,6 +58,19 @@ figure {
     float: right;
 }
 
+=======
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+
+>>>>>>> origin/master
 aside {
     width: 200px;
     height: 500px;
