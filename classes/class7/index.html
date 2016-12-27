@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Class 7 Work</title>
+        <link href="main.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="ClickMe" data-Channah="CElkrief">click here</div>
+        <div id="menu">here is the menu<br>more<br>more</div>
+        <p>here is some help <a href="#" data-title="Here is some help">some text</a></p>
+
+        <main>
+                <table>
+                <caption>A table of people</caption>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Place of birth</th>
+                            <th>Age</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>John</td>
+                            <td>Gateshead</td>
+                            <td>30</td>
+                        </tr>
+
+                        <tr>
+                            <td>Peter</td>
+                            <td colspan="2">London</td>
+                        </tr>
+
+                        <tr>
+                            <td>John</td>
+                            <td>Manchester</td>
+                            <td>50</td>
+                        </tr>
+                        </tbody>
+
+                </table>
+
+                <form id="myform">
+                    <fieldset>
+                        <legend>Tell me about yourself</legend>
+                    <input type="text" name="myname" placeholder="type your name" required autofocus>
+                    <textarea rows="4" cols="100" name="message"></textarea>
+                    <input type="submit" value="Click here to submit this form!">
+                    <input type="number" name="myAge" min=18 max=40 step=2 >
+                    <input type="email" name="my valid email" placeholder="type your email address" required>
+                        </fieldset>
+                    <input type="password" name="my password" placeholder="type your password - max 5 characters" maxlength="5" required>
+                    <input type="file" name="file" multiple>
+                    <input type="range" name="my range" min="0" max="100" value="25">
+                    <input type="reset" value="Click here to reset">
+
+                    <div>Choose your favourite colour</div>
+                    <input type="checkbox" name="favecolour" value="Yellow" id="colour_yellow" checked><label for="colour_yellow">Yellow</label>
+                    <input type="checkbox" name="favecolour" value="Blue" id="colour_blue"><label for="colour_blue">Blue</label>
+                    <input type="checkbox" name="favecolour" value="Red" id="colour_red"><label for="colour_red">Red</label>
+
+                    <div>What is your favourite shape?</div>
+                    <input type="radio" name="faveshape" value="square" id="shape_square"><label for="shape_square">Square</label>
+                    <input type="radio" name="faveshape" value="circle" id="shape_circle"><label for="shape_circle">circle</label>
+                    <input type="radio" name="faveshape" value="heart" id="shape_heart"><label for="shape_heart">heart</label>
+                    <input type="color">
+                    <input type="date">
+
+                    <div>What's the weather?</div>
+                    <select name="Weather">
+                        <option value"freezing">Freezing</option>
+                        <option value"cold">Cold</option>
+                        <option value"hot" selected>Hot</option>
+                        <option value"warm">Warm</option>
+                        <option value"icy">Icy</option>
+
+
+                    </select>
+
+
+
+                </form>
+        <script src="../../shared_js/jquery-3.1.1.min.js"></script>
+                <script src="main.js"></script>
+        </main>
+            </body>
+
+
+
+
+
+</html>

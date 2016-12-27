@@ -28,6 +28,8 @@ main {
 nav{
     float: right;
     color: hsl(300, 100%, 80%);
+        border-radius: 20;
+
 }
 
 .logo{

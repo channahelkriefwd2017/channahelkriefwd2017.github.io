@@ -13,23 +13,25 @@ body {
 }
 
 header {
-    width: 1024px;
+    /*width: 1024px;*/
     height: 54px;
     background: #EB5757;
 }
 
 main {
-    width: 1024px;
+    /*width: 1024px;*/
     height: 573px;
     background: #F2c94c;
 }
 
 nav {
-    width: 230px;
+    width: 180px;
     height: 374px;
     background: #FFFEF6;
     position: absolute;
     right: -999px;
+    border-radius: 10px;
+    border: 3px grey solid;
 }
 
 nav > ul > li  {
@@ -41,44 +43,38 @@ nav > ul > li  {
 #hamburger {
     height: 50px;
     width: 50px;
-    background-color: #fff;
-    border: 3px, solid;
+    background: #fff;
+    border: 1px solid #333;
     border-radius: 10px;
     cursor: pointer;
     position: relative;
-    right: -950px;
-
+    right: -95%;
 }
 
-#hamburger::before {
+#hamburger::before, #hamburger::after {
     content: " ";
     display: block;
     width: 30px;
     border-color:#333;
     border-style: solid;
-    border-width: 1px, 0;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
     position: absolute;
-    top: 11 px;
+    top: 11px;
     left: 9px;
+    height: 11px;
 }
 
 #hamburger::after {
-    content: " ";
-    display: block;
-    width: 30px;
-    border-color:#333;
-    border-style: solid;
-    border-width: 1px, 0;
-    border-top-width: 0;
-    position: absolute;
-    top: auto;
+
+    border-top-width: 0px;
     bottom: 11px;
-    left: 9px;
+    top: auto;
 }
 
 
 footer {
-    width: 1024px;
+    /*width: 1024px;*/
     height: 397px;
     background: #F2994A;
 }

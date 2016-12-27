@@ -1,0 +1,133 @@
+
+#ClickMe {
+    width: 100px;
+    height: 100px;
+    background: pink;
+    cursor: pointer;
+    position: relative
+}
+
+#ClickMe::before{
+    content: url(rainbow.png);
+    display: block;
+    position: absolute;
+    background: white;
+    left: 100px;
+    top: 10px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+#ClickMe::after{
+    content: attr(data-Channah);
+    display: block;
+    position: absolute;
+    background: yellow;
+    left: 200px;
+    top: 20px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+
+
+#menu {
+    position: absolute;
+    width: 100px;
+    right: -100px;
+}
+
+body {
+   overflow-x: hidden;
+}
+
+tr {
+    padding: 10px;
+    border: 1px dotted #a2b8c3;
+    background: #444;
+    top: 10px;
+    background: #fff;
+}
+
+td {
+    border: 1px dotted #666;
+}
+
+table {
+    margin: 50px;
+}
+
+input {
+    display:block
+}
+
+input[type="checkbox"], input[type"radio"]{
+    display: inline-block;
+    margin: 10px;
+}
+
+input:focus {
+    box-shadow: 0 0 10px red;
+
+}
+
+input:valid {
+    color: green;
+}
+
+input:invalid {
+    color: red;
+}
+
+input:required {
+    border: 3px solid pink;
+}
+
+a{
+    position:relative;
+}
+
+a::after{
+    position: absolute;
+    content: attr(data-title);
+    bottom: 100%;
+    background: orange;
+    left: 20%;
+    white-space: nowrap;
+    display: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a:hover::after{
+    display: inline-block;
+}
+
+#trial {
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    position: relative;
+}
+
+#trial::before {
+    content: " ";
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#trial::after {
+    content: " ";
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
