@@ -1,0 +1,31 @@
+
+h1 {
+    font-size: 45px;
+    color: #be18be;
+}
+
+h2{
+    font-size: 30px;
+    color: #FF20FF;
+}
+
+h3{
+    font-size: 22px;
+    color: #E577E5;
+
+}
+
+h4{
+    font-size: 16px;
+    color: #FFACFF;
+}
+
+p{
+    font-size: 12px;
+    color: black;
+}
+div {
+    border: 1px solid red;
+    padding: 6px;
+    margin: 5px;
+}

@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+html {
+   background: transparent url("bouquet-1463377.jpg") no-repeat fixed 0 0 /     cover;
+    position: relative;
+}
+
+html::before {
+    content: " ";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(211, 114, 113, .8), rgba(211, 114, 113, .0));
+    z-index: -1;
+}
+
+nav > ul > li{
+    display: inline-block;
+    color: #0A2300;
+    font-size: 30px;
+    font-family: sans-serif;
+    height: 50px;
+    width: auto;
+    padding: 20px;
+    position: relative;
+}
+
+nav > ul > li::before {
+    position: absolute;
+    content: " ";
+    height: 10px;
+    width: 100%;
+    background: #DA495C;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+nav > ul > li:hover::before{
+    display: inline-block;
+}
+
+nav li div {
+    position: absolute;
+    background: #DDB07A;
+    border: 0px solid #906024;
+    border-radius: 0 0 10px 10px;
+    top:50px;
+    left: 0;
+    width: 200px;
+    height: 0;
+    overflow: hidden;
+    padding: 10px;
+
+}
+
+
+.header {
+    position: relative;
+    height: 80px;
+    width: 100%;
+
+}
+
+.header::before {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: " ";
+    display: none;
+}
+
+.header:hover::before {
+    display: inline-block;
+}
+
+
+main{
+    text-align: center;
+    color:#F6D4C7;
+    margin: 20px;
+    padding: 20px;
+}
+#one{
+    font-size: 60px;
+    margin: 20px;
+}
+
+#two{
+    font-size: 25px;
+    margin: 20px;
+}
+#three{
+    font-size: 30px;
+    border: #F6D4C7 solid 3px;
+    border-radius: 50px;
+    width: 160px;
+    padding: 10px;
+    margin: auto;
+}
+
+#logo {
+    float: left;
+
+
+}

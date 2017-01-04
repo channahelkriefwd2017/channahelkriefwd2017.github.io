@@ -1,0 +1,110 @@
+div{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+}
+
+#div1 {
+    background-color: blueviolet;
+    background: linear-gradient(pink, purple);
+}
+
+#div2 {
+    background-color: blueviolet;
+    background: linear-gradient(red,yellow,purple,blue,black,turquoise)
+}
+
+#div3 {
+    background-color: blueviolet;
+    background: linear-gradient(45deg, pink, pink 30%, purple 30%, purple 80%, blue 80%);
+}
+
+#div4 {
+    background-color: blueviolet;
+    background: linear-gradient(to top right, red,yellow,purple,blue,black,turquoise)
+}
+
+#div5 {
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+#div5::after {
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(transparent, pink);
+}
+
+#div6 {
+    position: relative;
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+#div6::after {
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(to right, hsla(0, 20%, 20%, .1), hsla(0, 20%, 20%, .8));
+}
+
+#div7 {
+    background-color: chocolate;
+    background: radial-gradient(at top right, blue, green);
+}
+
+#div8 {
+    width: 600px;
+    background-color: chocolate;
+    background: radial-gradient(circle closest-side, blue, green);
+}
+
+#div9 {
+    background-color: cadetblue;
+    background: repeating-linear-gradient(45deg, yellow, yellow 10px, red 10px, red 20px)
+}
+
+#div10 {
+    background-color: cadetblue;
+    background: repeating-radial-gradient(green, green 10px, red 10px, red 20px)
+}
+
+#div11 {
+    background-color: cadetblue;
+    background: repeating-radial-gradient(circle at 0 0, )
+}
+
+html {
+    /*background: url("background-2276.jpg");
+    background-size: cover;*/
+    background: transparent url("background-2276.jpg") no-repeat fixed 0 0 / cover;
+    position: relative;
+}
+
+html::after {
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: hsla(20, 20%, 90%, .8);
+    z-index: -1;
+}
+
+
+
+
+
+
