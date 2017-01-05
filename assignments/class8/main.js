@@ -4,7 +4,7 @@ $(function(){
 
     $myNavItem.on("mouseover", function(){
         $(this).find(".scrollNav").animate(
-            {height: "120px"},
+            {height: "120px", padding: "10px"},
             {queue: false,
              duration: 500,
              easing: "linear",
@@ -16,7 +16,7 @@ $(function(){
 
     }).on("mouseleave", function(){
         $(this).find(".scrollNav").animate(
-            {height: "0px"},
+            {height: "0px", padding: "0px"},
             {queue: false,
              duration: 500,
              easing: "linear",

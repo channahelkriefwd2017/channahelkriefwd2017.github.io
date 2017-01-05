@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.3em;
+    color:
+}
+
+@font-face {
+    font-family: 'CocaColaType';
+    src: url('Milkshake.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+h1 {
+    font-family: "CocaColaType", arial, sans-serif;
+    color: #eb0ae3;
+    font-size: 2em;
+    margin-bottom: 10px;
+}

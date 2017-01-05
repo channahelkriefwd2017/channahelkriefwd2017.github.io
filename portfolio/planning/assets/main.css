@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'CocaColaType';
+    src: url('assets/Milkshake.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.mainHeader {
+    font-family: 'CocaColaType';
+    font-size: 2em;
+    color:
+}
+
+.subHeader {
+
+}
+
+div {
+    height:  100px;
+    width: 100px;
+    border: 2px solid #232123;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+}
+#deepPurple {
+    background: #0c010b;
+}
+
+#darkPink {
+    background: #8b184c;
+}
+
+#brightPink {
+    background: #db388e;
+}
+
+
+#brightGreen {
+   background: #77a815;
+}
+
+
+#oliveGreen {
+    background: #425818;
+}
