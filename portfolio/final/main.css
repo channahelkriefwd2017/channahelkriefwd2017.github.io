@@ -1,0 +1,30 @@
+.container{
+
+}
+
+.row1 div{
+    background: pink;
+    height: 100px;
+    border: 3px solid green;
+}
+
+.row1 div div{
+    height: 58px;
+
+}
+
+.row1 div div div{
+   height: 44px;
+}
+
+.row3 div div {
+    height: 262px;
+}
+
+.row3 img {
+    float: right;
+    height: 262px;
+
+}
+
+
