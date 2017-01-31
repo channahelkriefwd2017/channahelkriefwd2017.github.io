@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link href="featherlight.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+        <link href="rellax.min.js" rel="stylesheet">
+        <link href="main.css" rel="stylesheet">
+
+
+    </head>
+    <body>
+<h1>Here is my page</h1>
+        <iframe src="http://compuskills.org/classes/login/index.php"></iframe>
+        <iframe src="https://docs.google.com/document/d/1r4py5rl1NqscUYwoC7VrC5YWvAsBUx3rFpr6EKqcRlk/pub?embedded=true"></iframe>
+        <div>
+        <a href="#" data-featherlight="#mylightbox">Open element in lightbox</a>
+        <div class="lightbox_hidden" id="mylightbox">This div will be opened in a lightbox</div>
+        <a href="#" data-featherlight="fruits-market-colors.jpg">Open image in lightbox</a>
+        </div>
+
+        <div class="rellax">
+  I’m that default chill speed of "-2"
+</div>
+<div class="rellax" data-rellax-speed="7">
+  I’m super fast!!
+</div>
+<div class="rellax" data-rellax-speed="-4">
+  I’m extra slow and smooth
+</div>
+
+        <div class="my_Slider">
+              <div><img src="fruits-market-colors.jpg"></div>
+              <div><img src="flowers1.JPG"></div>
+              <div><img src="flowers2.jpg"></div>
+            <div><img src="2180550-tulip-flower-wallpapers.jpg"></div>
+            <div><img src="3349966-autumn-leaves-wallpaper-free-download.jpg"></div>
+            <div><img src="Autumn-Leaves.jpg"></div>
+            <div><img src="spring-108810.jpg"></div>
+            <div><img src="StockSnap_2XQ1VPP9G0.jpg"></div>
+            <div><img src="StockSnap_OPR5WUGHPK.jpg"></div>
+        </div>
+
+
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <script
+    <script src="featherlight.min.js"></script>
+        <script>
+        $(document).ready(function(){
+        $('.my_Slider').slick({
+        autoplay: true,
+        autoplaySpeed: 500,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        });
+
+  var rellax = new Rellax('.rellax');
+
+    });
+        </script>
+    </body>
+</html>
