@@ -17,14 +17,14 @@ html {
 
 @font-face {
     font-family: 'bodyBold';
-    src: url('adventpro-Bd1');
+    src: url('adventpro-Bd1.otf');
     font-weight: normal;
     font-style: bold;
 }
 
 @font-face {
     font-family: 'bodyLight';
-    src: url('adventpro-Lt1');
+    src: url('adventpro-Lt1.otf');
     font-weight: normal;
     font-style: normal;
 }
@@ -37,7 +37,7 @@ html {
 }
 
 .navbar-inverse{
-    background: background: #0c010b;
+    background: #0c010b;
 }
 
 
