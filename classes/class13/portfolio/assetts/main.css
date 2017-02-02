@@ -70,9 +70,12 @@ html {
     background: #0C010B;
     padding: 5px;
 }
-
-a {
+.link {
     color: blueviolet;
     padding: 10px;
     background: purple;
+}
+
+.navbar-inverse .navbar-nav > li > a.current{
+    color: purple;
 }
