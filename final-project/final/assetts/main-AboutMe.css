@@ -1,0 +1,92 @@
+
+img {
+    display: inline;
+}
+
+.row2 img{
+    width: 100%;
+}
+
+.row2{
+    background: #fff;
+    color: #494949;
+    padding: 10px;
+    text-align: justify;
+
+}
+@font-face {
+    font-family: 'HebrewCursiveBold';
+    src: url('assetts/KtavYadCLM-BoldItalic.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HebrewCursive';
+    src: url('assetts/KtavYadCLM-MediumItalic.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HebrewText';
+    src: url('assetts/DAharony.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.Body {
+    font-family: 'HebrewText';
+    font-size: 1em;
+    color: #494949;
+    padding: 20px;
+
+}
+
+.mainHeader {
+    font-family: 'HebrewCursiveBold';
+    font-size: 3em;
+    color: #494949;
+    padding: 30px;
+}
+
+.subHeader {
+    font-family: 'HebrewCursive';
+    font-size: 2em;
+    color: #E7E7E7;
+    padding: 25px;
+}
+
+.line{
+    background: #E7E7E7;
+    height: 20px;
+    width: 100%;
+
+}
+
+.row3 {
+    background: #fff;
+    border: black 1px;
+    overflow: hidden;
+}
+.footer {
+    padding: 10px;
+    background: #494949;;
+    display: inline-block;
+    float: right;
+}
+
+
+.footer li {
+    display: inline-block;
+    padding: 10px;
+    color: #6FDA44;
+    float: right;
+}
+
+.footer > li > a{
+    color: #6FDA44;
+}
+
+
