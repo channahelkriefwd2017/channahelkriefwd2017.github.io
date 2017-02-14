@@ -1,0 +1,162 @@
+*{
+    font-family: 'HebrewText';
+}
+
+@font-face {
+    font-family: 'HebrewCursiveBold';
+    src: url('assetts/KtavYadCLM-BoldItalic.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HebrewCursive';
+    src: url('assetts/KtavYadCLM-MediumItalic.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HebrewText';
+    src: url('assetts/DAharony.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.Body {
+    font-family: 'HebrewText';
+    font-size: 1em;
+    color: #494949;
+    padding: 20px;
+
+}
+
+.mainHeader {
+    font-family: 'HebrewCursiveBold';
+    font-size: 3em;
+    color: #494949;
+    padding: 30px;
+}
+
+.subHeader {
+    font-family: 'HebrewCursive';
+    font-size: 2em;
+    color: #E7E7E7;
+    padding: 25px;
+}
+
+.row1 {
+   background: purple;
+color: aqua
+}
+
+.hi {
+    background: purple;
+color: aqua
+}
+
+#success_message{ display: none;}
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+
+body {
+	background: #E7E7E7;
+	color: #fff;
+	font-weight: 400;
+	font-size: 1em;
+	font-family: 'Lato', Arial, sans-serif;
+	margin:0;
+	padding:0;
+	padding-bottom:60px;
+}
+.ccheader {
+	margin: 0 auto;
+	padding: 2em;
+	text-align: center;
+}
+
+.ccheader h1 {
+	margin: 0;
+	font-weight: 300;
+	font-size: 2.5em;
+	line-height: 1.3;
+}
+.ccheader {
+	margin: 0 auto;
+	padding: 2em;
+	text-align: center;
+    background: #6FDA44;
+}
+
+.ccheader h1 {
+	margin: 0;
+	font-weight: 300;
+	font-size: 2.5em;
+	line-height: 1.3;
+}
+
+/* Form CSS*/
+.ccform {
+   margin: 0 auto;
+    width: 800px;
+}
+.ccfield-prepend{
+	margin-bottom:10px;
+	width:100%;
+}
+
+.ccform-addon{
+	color:#6FDA44;
+	float:left;
+	padding:8px;
+	width:8%;
+	background:#FFFFFF;
+	text-align:center;
+}
+
+.ccformfield {
+	color:#000000;
+	background:#FFFFFF;
+	border:none;
+	padding:15.5px;
+	width:91.9%;
+	display:block;
+	font-family: 'Lato',Arial,sans-serif;
+	font-size:14px;
+}
+
+.ccformfield {
+	font-family: 'Lato',Arial,sans-serif;
+}
+.ccbtn{
+	display:block;
+	border:none;
+	background:#6FDA44;
+	color:#FFFFFF;
+	padding:12px 25px;
+	cursor:pointer;
+	text-decoration:none;
+	font-weight:bold;
+}
+.ccbtn:hover{
+	background:#fff;
+
+}
+.credit {
+  width: 800px;
+  clear:both;
+margin:0 auto;
+  line-height:25px;
+ padding: 25px 50px;
+text-align: center;
+}
+.credit em{
+margin-right:5px;
+}
+.credit a {
+color: #000;
+font-weight: bold;
+text-decoration: none;
+}
