@@ -1,0 +1,81 @@
+html {
+    background: #2D2E30;
+}
+@font-face {
+    font-family: 'CocaColaType';
+    src: url('Milkshake.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'subHeader';
+    src: url('gnuolane-rg.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bodyBold';
+    src: url('adventpro-Bd1.otf');
+    font-weight: normal;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'bodyLight';
+    src: url('adventpro-Lt1.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.row3 img {
+    float: right;
+    height: 262px;
+
+}
+
+.navbar-inverse{
+    background: #0c010b;
+}
+
+
+.navbar-inverse .navbar-brand {
+    color: #77A815;
+    font-family: 'CocaColaType';
+    font-size: 2em;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #DB388E;
+    font-size: 1.5em;
+    font-family: 'subHeader';
+}
+
+.row2 > div > .col-xs-7 {
+    color: #77A815;
+    font-family: 'CocaColaType';
+    font-size: 5em;
+    background:  #FFFFFF;
+}
+
+.row2 > div > .col-xs-5 {
+    font-family: 'bodyBold';
+    color: #FFFFFF;
+    background: #8B184C;
+}
+
+.row2 > div {
+    background: #0C010B;
+    padding: 5px;
+}
+.link {
+    color: blueviolet;
+    padding: 10px;
+    background: purple;
+}
+
+.navbar-inverse .navbar-nav > li > a.current{
+    color: purple;
+}
