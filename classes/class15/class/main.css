@@ -1,0 +1,62 @@
+.HeaderContent{
+    position: relative;
+}
+.square {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin: 20px;
+
+    background: purple;
+}
+
+.square:nth-child(1 ){
+    background: pink;
+    transform: scale(2,2);
+    transform-origin: top left;
+}
+
+.square:nth-child(2) {
+    background: red;
+    transform: skewX(20deg);
+}
+
+.square:nth-child(3) {
+    background: yellow;
+    transform: rotate(30deg)
+}
+
+.square:nth-child(4) {
+    background: green;
+    transform: translate(50px)
+}
+
+.square:nth-child(5) {
+    background: blue;
+    transform
+}
+
+.header{
+    position: relative;
+    color: crimson;
+    padding: 50px 50px;
+    overflow: hidden;
+    /*--border-radius: 0 0 10% 10%;
+    border-bottom-right-radius: 50% 20%;
+    border-bottom-left-radius: 20% 50%;*/
+
+}
+
+.skewBack{
+    height: 100%;
+    transform: skewY(-3deg);
+    transform-origin: top left;
+    background: linear-gradient(pink, green);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
