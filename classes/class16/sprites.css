@@ -1,0 +1,28 @@
+.smileyVase, .tulips, .vaseRows, .colouredRose{
+	background: url(sprites.png) no-repeat;
+}
+
+.smileyVase{
+	background-position: 0 -231px ;
+	width: 208px;
+	height: 243px;
+}
+
+.tulips{
+	background-position: -450px -200px ;
+	width: 183px;
+	height: 276px;
+}
+
+.vaseRows{
+	background-position: 0 0;
+	width: 225px;
+	height: 225px;
+}
+
+.colouredRose{
+	background-position: -354px -3px ;
+	width: 284px;
+	height: 177px;
+}
+
