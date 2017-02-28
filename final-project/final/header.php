@@ -21,7 +21,7 @@
                         <ul>
                             <li><a <?=($page=="page2")? "class='current'" : "" ?>href="index2.php">About Me</a></li>
                             <li><a <?=($page=="page3")? "class='current'" : "" ?> href="#">Essay & Tips</a></li>
-                            <li><a <?=($page=="page4")? "class='current'" : "" ?> href="#">Contact me</a></li>
+                            <li><a <?=($page=="page5")? "class='current'" : "" ?> href="form.php">Contact me</a></li>
 
                         </ul>
                     </div>
