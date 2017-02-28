@@ -1,0 +1,33 @@
+*{
+    color: pink;
+}
+
+div {
+    height: 400px;
+    background: url(images.jpg) no-repeat 80%,
+    linear-gradient(rgba(255, 0, 0, .7), rgba(0,0,255,.7));
+
+    color: azure;
+    font-size: 4em;
+}
+
+
+div h1 {
+    color: red;
+}
+
+
+.testing_Transitions {
+    height: 100px;
+    width: 100px;
+    background: red;
+    transition: 1s;
+    transition: font-size 1s;
+}
+
+.testing_Transitions:hover {
+    background: yellow;
+    transform: rotate(30deg);
+    font-size: 2em;
+
+}
