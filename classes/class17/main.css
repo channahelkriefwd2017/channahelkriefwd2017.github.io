@@ -1,0 +1,143 @@
+.progressBar{
+    width: 500px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: hsl(204,18%,26%);
+    box-shadow: 0px -2px 1px 2px #fff inset;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.progressBar div{
+    height: 100%;
+    box-shadow: 0px -2px 1px 2px #fff inset;
+    box-sizing: border-box;
+    background-color: hsl(204,30%,80%);
+    border-radius: 40px;
+    animation: grow 2s infinite alternate;
+    position: relative;
+}
+
+.progressBar div::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 40px;
+    background-image: linear-gradient(-45deg, hsla(204,30%,10%,.8) 25%, transparent 25%, transparent 50%,
+                        hsla(204,30%,10%,.8)50%, hsla(204,30%,10%,.8)75%, transparent 75%, transparent 100%);
+    background-size: 50px 50px;
+    animation: moveBars 2s infinite;
+    overflow: hidden;
+}
+
+
+h1 {
+    font-size: 4vw;
+    }
+h2 {
+    font-size: 3vw;
+}
+
+section {
+    font-size: 2vw;
+}
+
+@media(max-width: 450px){
+    h1 {
+    font-size: 8vw;
+    }
+h2 {
+    font-size: 6vw;
+}
+
+section {
+    font-size: 4vw;
+}
+}
+
+body {
+    background-color:bisque;
+    border: grey solid 5px;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.perspective-parent{
+    perspective: 200px;
+    perspective-origin: bottom left;
+    transform-style: preserve-3d;
+}
+.perspective-parent div{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    display: inline-block;
+    transform: rotateY(45deg);
+    transform: rotateX(45deg);
+    transition: 3s;
+    animation: slide-left 1s alternate infinite forwards;
+
+}
+
+.perspective-parent div:hover{
+    /*transform: rotateY(0deg) rotateY(45deg) ;
+    transform: rotateX(0deg);*/
+    animation-play-state: paused;
+
+
+}
+
+.perspective-parent div:nth-child(1){
+    background-color:aqua;
+    transform: translateZ(-10px)
+}
+
+.perspective-parent div:nth-child(2){
+    background-color:crimson;
+    transform: translateZ(20px)
+}
+.perspective-parent div:nth-child(3){
+    background-color:darkorchid;
+    transform: translateZ(50px)
+}
+
+@keyframes slide-left {
+    0% {
+        transform: translateX(0);
+    }
+    --50%{
+     --   transform: translateX(-50px);
+    --}
+    100%{
+        transform: translateX(100px);
+    }
+}
+@keyframes grow {
+    0% {
+        width: 10%;
+    }
+
+
+    100%{
+        width: 100%;
+    }
+}
+
+        @keyframes moveBars {
+    0% {
+       background-position: 0, 0;
+    }
+
+
+    100%{
+       background-position: 50, 50;
+    }
+}
+
+
