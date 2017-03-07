@@ -1,0 +1,114 @@
+*{
+    font-size: 1.2em;
+    padding: 15px;
+}
+
+@font-face {
+    font-family: 'hebrew';
+    src: url('fonts/Alef/Alef-Webfont/Alef-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.body {
+    font-family: 'hebrew';
+    color: aqua;
+}
+
+@font-face {
+    font-family: 'cousine';
+    src: url('fonts/cousine/Cousine-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.cousine {
+    font-family: 'cousine';
+    color: blueviolet;
+    font-size: 3em;
+}
+
+@font-face {
+    font-family: 'dorian';
+    src: url('fonts/dorian/dorianclm-bookitalic-webfont.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.dorian {
+    font-family: "dorian";
+    color: chartreuse;
+}
+
+@font-face {
+    font-family: 'GveretLevinAlefAlefAlef';
+    src: url('fonts/GveretLevinAlefAlefAlef/otf/GveretLevinAlefAlefAlef-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.GveretLevin {
+    font-family: 'GveretLevinAlefAlefAlef';
+    color: cadetblue;
+}
+
+@font-face {
+    font-family: 'Secular_One';
+    src: url('fonts/Secular_One/Secular_One/SecularOne-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.secular {
+    font-family: "Secular_One";
+    color: crimson;
+}
+
+@font-face {
+    font-family: 'Suez_One';
+    src: url('fonts/Suez_One/Suez_One/SuezOne-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.suez {
+    font-family: "suez";
+    color: darkgoldenrod;
+}
+
+@font-face{
+    font-family: 'choco';
+    src: url('fonts/choco/CHOCRG__.TTF');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.choco {
+    font-family: 'choco';
+
+}
+
+@font-face{
+    font-family: 'hofesh';
+    src: url('fonts/hofesh/HOFERG__.TTF');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.hofesh {
+    font-family: 'hofesh';
+}
+
+@font-face {
+    font-family: 'petel';
+    src: url('fonts/petel/PETERG__.TTF');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.petel {
+    font-family: 'petel';
+}
